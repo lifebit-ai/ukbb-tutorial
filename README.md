@@ -43,31 +43,6 @@ The following are required for the hackathon:
     - [b) Running the pipeline](#b-running-the-pipeline)
     - [c) Monitoring an analysis](#c-monitoring-an-analysis)
 
-## Setup
-So that you have the `testdata` within the repository it is recommended that you clone this reposiotry. To do this open a terminal & enter the following:
-```
-git clone https://github.com/lifebit-ai/jax-tutorial.git
-&& cd jax-tutorial
-```
-
-For the tutorial we will be working through a series of steps. If you are behind you can view the branches we have made for that section. The final branch is 2b.
-
-If you’re familiar with git this should help you falling behind with the pipeline. The key thing then is not to fall behind with installing the software dependencies :sweat_smile:
-
-![branches](https://raw.githubusercontent.com/lifebit-ai/lbf-hack-tutorial/master/images/branches.png)
-
-To swtich to the branch on the command line you can enter:
-```bash
-git checkout <branch_name>
-```
-
-eg:
-```bash
-git checkout 1b
-```
-
-<br />
-
 ## Session 1: Nextflow
 
 ![nextflow_logo](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/nextflow.png)
