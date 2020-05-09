@@ -10,13 +10,7 @@ In this tutorial you will learn:
 - [Nextflow](https://www.nextflow.io/) - how to build parallelisable & scalable computational pipelines
 - Containers such as [Docker](https://www.docker.com/) & [Singularity](https://sylabs.io/singularity/) - how to build & run containers to bundle dependencies
 - [FlowCraft](https://flowcraft.readthedocs.io/en/latest/) - how to build & use modular, extensible and flexible components for Nextflow pipelines
-- [Deploit](https://lifebit.ai/deploit) - how to scale your analyses over the cloud
-
-## Agenda
-
-The following is a very rough agenda for the day. We may find that different parts of the tutorial take us more or less time to get through the content than the times stated here:
-
-![agenda](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/jax-agenda.png)
+- UKB CloudOS - how to scale your analyses over the cloud
 
 ## Prerequisites
 The following are required for the hackathon:
@@ -24,8 +18,6 @@ The following are required for the hackathon:
 - Docker engine 1.10.x (or higher)
 - Git
 - Python3
-
-*If you have them installed that's great! Don't worry if not we will help you to install them & other software throughout the tutorial*
 
 ## Contents
 
@@ -46,9 +38,9 @@ The following are required for the hackathon:
     - [a) Installation](#a-installation)
     - [b) How to build a FlowCraft Component](#b-how-to-build-a-flowcraft-component)
     - [c) Building a pipeline with FlowCraft](#c-building-a-pipeline-with-flowcraft)
-- [Session 4: Running Nextflow Pipelines on The Cloud on Deploit](#session-4-running-nextflow-pipelines-on-the-cloud-on-deploit)
+- [Session 4: Running Nextflow Pipelines on The Cloud using UKB CloudOS](#session-4-running-nextflow-pipelines-on-the-cloud-using-UKB-CloudOS)
     - [a) Creating an account](#a-creating-an-account)
-    - [b) Importing a Nextflow pipeline on Deploit](#b-importing-a-nextflow-pipeline-on-deploit)
+    - [b) Importing a Nextflow pipeline on UKB CloudOS](#b-importing-a-nextflow-pipeline-on-UKB-CloudOS)
     - [c) Running the pipeline](#c-running-the-pipeline)
     - [d) Monitoring an analysis](#d-monitoring-an-analysis)
 
@@ -608,7 +600,7 @@ Here the `merge-params` flag is used to merges all parameters with the same name
 
 <br />
 
-## Session 4: Running Nextflow Pipelines on The Cloud on Deploit
+## Session 4: Running Nextflow Pipelines on The Cloud on UKB CloudOS
 
 ![deploit logo](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/deploit.png)
 
@@ -621,7 +613,7 @@ First, create an account/log in [here](https://deploit.lifebit.ai/register). For
 
 ![create_deploit_account](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/create_deploit_account.png)
 
-### b) Importing a Nextflow pipeline on Deploit
+### b) Importing a Nextflow pipeline on UKB CloudOS
 
 We are able to import the GATK pipeline we created with FlowCraft from the previous section (Session 3) on Deploit. This will enable us to scale our analyses. All we need to import a pipeline is the URL from GitHub. For simplicity, we have already created a GitHub repository for the pipeline here: https://github.com/lifebit-ai/gatk-flowcraft
 
