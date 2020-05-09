@@ -4,7 +4,7 @@ Tutorial covering Nextflow, containers, FlowCraft and UKB CloudOS.
 
 
 
-![ukb_logo](https://en.wikipedia.org/wiki/UK_Biobank#/media/File:UK_biobank_logo.png)
+![ukb_logo](https://upload.wikimedia.org/wikipedia/en/d/d5/UK_biobank_logo.png)
 
 In this tutorial you will learn:
 - [Nextflow](https://www.nextflow.io/) - how to build parallelisable & scalable computational pipelines
