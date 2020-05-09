@@ -578,11 +578,9 @@ Here the `merge-params` flag is used to merges all parameters with the same name
 
 **Main outcome:** *During this session, you will learn how to scale the GATK pipeline you built in the previous session to run an analysis on the Cloud using the UKB CloudOS platform.*
 
-UKB CloudOS is a bioinformatics platform, developed by Lifebit, where you can run your analysis over the Cloud/AWS.
-
 ### a) Importing a Nextflow pipeline on UKB CloudOS
 
-We are able to import the GATK pipeline we created with FlowCraft from the previous section (Session 3) on UKB CloudOWS. This will enable us to scale our analyses. All we need to import a pipeline is the URL from GitHub. For simplicity, we have already created a GitHub repository for the pipeline here: https://github.com/lifebit-ai/gatk-flowcraft
+We are able to import the GATK pipeline we created with FlowCraft from the previous section (Session 3) on UKB CloudOS. This will enable us to scale our analyses. All we need to import a pipeline is the URL from GitHub. For simplicity, we have already created a GitHub repository for the pipeline here: https://github.com/lifebit-ai/gatk-flowcraft
 
 To import the pipeline we must first navigate to the pipelines page. This can be found in the navigation bar on the left-hand-side:
 
@@ -659,6 +657,6 @@ You can view a successfully completed example job [here](https://staging.lifebit
 
 ### Thanks for taking part
 
-Well done you survived! You’ve made it to the end of the workshop tutorial. You’ve learned about the magic of Nextflow, containers, Flowcraft & UKB CloudOS. You can now go out & analyse all the things.
+Well done you survived! You’ve made it to the end of the tutorial. You’ve learned about the magic of Nextflow, containers, Flowcraft & UKB CloudOS. You can now go out & analyse all the things.
 
 
