@@ -1,8 +1,10 @@
-# Jackson Labs Tutorial
-Tutorial for Jackson Labs, on 26th July 2019, covering Nextflow, containers, FlowCraft and Deploit.
+# How to construct a pipeline on UKB CloudOS 
+Tutorial covering Nextflow, containers, FlowCraft and UKB CloudOS.
 
 
-![jax_logo](https://www.jax.org/_res/img/logo-tag.png)
+
+
+![ukb_logo](https://en.wikipedia.org/wiki/UK_Biobank#/media/File:UK_biobank_logo.png)
 
 In this tutorial you will learn:
 - [Nextflow](https://www.nextflow.io/) - how to build parallelisable & scalable computational pipelines
