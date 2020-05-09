@@ -584,7 +584,7 @@ We are able to import the GATK pipeline we created with FlowCraft from the previ
 
 To import the pipeline we must first navigate to the pipelines page. This can be found in the navigation bar on the left-hand-side:
 
-![deploit_pipelines](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/deploit_pipelines.png)
+![ukb cloudos pipelines](images/pipelines.png)
 
 To then import the pipeline you need to:
 - Click the green `New` button
