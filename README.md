@@ -594,7 +594,7 @@ To then import the pipeline you need to:
 - (Optional:) enter a pipeline description
 - Click `Next` & `Create pipeline` :tada:
 
-![import_pipeline.gif](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/import_pipeline.gif)
+![import pipeline gif](images/importpipeline.gif)
 
 
 ### b) Running the pipeline
