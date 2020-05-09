@@ -599,7 +599,7 @@ Here the `merge-params` flag is used to merges all parameters with the same name
 
 ## Session 4: Running Nextflow Pipelines on The Cloud using UKB CloudOS
 
-![deploit logo](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/deploit.png)
+![ukb cloudos logo](images/cloudoslogo.png)
 
 **Main outcome:** *During this session, you will learn how to scale the GATK pipeline you built in the previous session to run an analysis on the Cloud using the UKB CloudOS platform.*
 
