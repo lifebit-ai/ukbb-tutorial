@@ -600,7 +600,7 @@ Here the `merge-params` flag is used to merges all parameters with the same name
 
 <br />
 
-## Session 4: Running Nextflow Pipelines on The Cloud on UKB CloudOS
+## Session 4: Running Nextflow Pipelines on The Cloud using UKB CloudOS
 
 ![deploit logo](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/deploit.png)
 
