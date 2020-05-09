@@ -686,5 +686,4 @@ You can view a successfully completed example job [here](https://staging.lifebit
 
 Well done you survived! You’ve made it to the end of the workshop tutorial. You’ve learned about the magic of Nextflow, containers, Flowcraft & UKB CloudOS. You can now go out & analyse all the things.
 
-![all_the_things](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/all_the_things.jpg)
 
