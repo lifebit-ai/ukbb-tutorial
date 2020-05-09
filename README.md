@@ -630,7 +630,7 @@ To select the data & parameters you must:
 
 See below for all of the steps:
 
-![select_data_params](images?runnewanalysis.gif)
+![select_data_params](images/runnewanalysis.gif)
 
 #### iii. Run the job - selecting the project & resources
 
