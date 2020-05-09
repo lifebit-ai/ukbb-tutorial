@@ -406,12 +406,12 @@ docker images
 #### For example:
 With the `Dockerfile` from above you might want to run:
 ```bash
-docker build -t lifebitai/jax-workshop .
+docker build -t lifebitai/ukb-workshop .
 ```
 
 And then you can enter inside the container to check everything is working:
 ```bash
-docker run -it lifebitai/jax-workshop:latest bash
+docker run -it lifebitai/ukb-workshop:latest bash
 ```
 
 The container can be used in our Nextflow pipeline replacing the two different containers we currently have because it has both `fastqc` & `multiqc` installed
