@@ -607,9 +607,9 @@ Pipelines can be run in three simple steps:
 #### i. Selecting the pipeline
 Once the pipeline is imported it will automatically be selected.
 
-Alternatively, you can navigate to the pipelines page. Where you can find the imported pipeline under `MY PIPELINES & TOOLS`. To select the pipeline you need to click the card for the pipeline.
+Alternatively, you can navigate to the pipelines page. Where you can find the imported pipeline under `WORKSPACE TOOLS`. To select the pipeline you need to click the card for the pipeline.
 
-![my_pipelines](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/my_pipelines.png)
+![workspace pipeline](images/gatk.png)
 
 #### ii. Selecting the data & parameters
 
