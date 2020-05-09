@@ -39,10 +39,9 @@ The following are required for the hackathon:
     - [b) How to build a FlowCraft Component](#b-how-to-build-a-flowcraft-component)
     - [c) Building a pipeline with FlowCraft](#c-building-a-pipeline-with-flowcraft)
 - [Session 4: Running Nextflow Pipelines on The Cloud using UKB CloudOS](#session-4-running-nextflow-pipelines-on-the-cloud-using-UKB-CloudOS)
-    - [a) Creating an account](#a-creating-an-account)
-    - [b) Importing a Nextflow pipeline on UKB CloudOS](#b-importing-a-nextflow-pipeline-on-UKB-CloudOS)
-    - [c) Running the pipeline](#c-running-the-pipeline)
-    - [d) Monitoring an analysis](#d-monitoring-an-analysis)
+    - [a) Importing a Nextflow pipeline on UKB CloudOS](#a-importing-a-nextflow-pipeline-on-UKB-CloudOS)
+    - [b) Running the pipeline](#b-running-the-pipeline)
+    - [c) Monitoring an analysis](#c-monitoring-an-analysis)
 
 ## Setup
 So that you have the `testdata` within the repository it is recommended that you clone this reposiotry. To do this open a terminal & enter the following:
@@ -606,12 +605,7 @@ Here the `merge-params` flag is used to merges all parameters with the same name
 
 UKB CloudOS is a bioinformatics platform, developed by Lifebit, where you can run your analysis over the Cloud/AWS.
 
-### a) Creating an account
-First, create an account/log in [here](https://deploit.lifebit.ai/register). For the purposes of this worksop you can setup a Deploit account with $10 free credit. After this workshop you may choose to connect your cloud account to access your own data & compute
-
-![create_deploit_account](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/create_deploit_account.png)
-
-### b) Importing a Nextflow pipeline on UKB CloudOS
+### a) Importing a Nextflow pipeline on UKB CloudOS
 
 We are able to import the GATK pipeline we created with FlowCraft from the previous section (Session 3) on UKB CloudOWS. This will enable us to scale our analyses. All we need to import a pipeline is the URL from GitHub. For simplicity, we have already created a GitHub repository for the pipeline here: https://github.com/lifebit-ai/gatk-flowcraft
 
@@ -630,7 +624,7 @@ To then import the pipeline you need to:
 ![import_pipeline.gif](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/import_pipeline.gif)
 
 
-### c) Running the pipeline
+### b) Running the pipeline
 
 Pipelines can be run in three simple steps:
 1. Select the pipeline
@@ -676,7 +670,7 @@ Before running the job you must:
 
 ![run_job](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/run_job.gif)
 
-### d) Monitoring an analysis
+### c) Monitoring an analysis
 
 To monitor jobs you can click on the row for any given job. Immediately after running a job its status will be initialising. This is where AWS in launching the instance. This normally occurs for ~5mins before you are able to view the progress of the job. 
 
