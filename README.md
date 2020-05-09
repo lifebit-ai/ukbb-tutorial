@@ -604,9 +604,9 @@ Here the `merge-params` flag is used to merges all parameters with the same name
 
 ![deploit logo](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/deploit.png)
 
-**Main outcome:** *During this session, you will learn how to scale the GATK pipeline you built in the previous session to run an analysis on the Cloud using the Deploit platform.*
+**Main outcome:** *During this session, you will learn how to scale the GATK pipeline you built in the previous session to run an analysis on the Cloud using the UKB CloudOS platform.*
 
-[Deploit](https://lifebit.ai/deploit) is a bioinformatics platform, developed by Lifebit, where you can run your analysis over the Cloud/AWS.
+UKB CloudOS is a bioinformatics platform, developed by Lifebit, where you can run your analysis over the Cloud/AWS.
 
 ### a) Creating an account
 First, create an account/log in [here](https://deploit.lifebit.ai/register). For the purposes of this worksop you can setup a Deploit account with $10 free credit. After this workshop you may choose to connect your cloud account to access your own data & compute
@@ -615,7 +615,7 @@ First, create an account/log in [here](https://deploit.lifebit.ai/register). For
 
 ### b) Importing a Nextflow pipeline on UKB CloudOS
 
-We are able to import the GATK pipeline we created with FlowCraft from the previous section (Session 3) on Deploit. This will enable us to scale our analyses. All we need to import a pipeline is the URL from GitHub. For simplicity, we have already created a GitHub repository for the pipeline here: https://github.com/lifebit-ai/gatk-flowcraft
+We are able to import the GATK pipeline we created with FlowCraft from the previous section (Session 3) on UKB CloudOWS. This will enable us to scale our analyses. All we need to import a pipeline is the URL from GitHub. For simplicity, we have already created a GitHub repository for the pipeline here: https://github.com/lifebit-ai/gatk-flowcraft
 
 To import the pipeline we must first navigate to the pipelines page. This can be found in the navigation bar on the left-hand-side:
 
@@ -692,21 +692,7 @@ You can view a successfully completed example job [here](https://staging.lifebit
 
 ### Thanks for taking part
 
-Well done you survived! You’ve made it to the end of the workshop tutorial. You’ve learned about the magic of Nextflow, containers, Flowcraft & Deploit. You can now go out & analyse all the things.
+Well done you survived! You’ve made it to the end of the workshop tutorial. You’ve learned about the magic of Nextflow, containers, Flowcraft & UKB CloudOS. You can now go out & analyse all the things.
 
 ![all_the_things](https://raw.githubusercontent.com/PhilPalmer/lbf-hack-tutorial/master/images/all_the_things.jpg)
 
-Hope you enjoyed the conference & let us know if you have any [feedback](https://forms.gle/u78r5byJeZENbKdF8) or questions.
-
-Is there anything we could have improved on? It would be much appreciated if you could fill out this [feedback form](https://forms.gle/u78r5byJeZENbKdF8). For any questions please email phil@lifebit.ai
-
-## Credits
-
-Credits to [Jackson Labs](https://www.jax.org/) & [Anne Deslattes Mays](https://github.com/adeslatt) for hosting us & organising the event.
-
-Credits to [Lifebit](https://lifebit.ai/) for preparing & presenting the workshop.
-
-Many thanks to everyone who helped out along the way, including (but not limited to): 
-@ODiogoSilva, @cgpu, @clairealix, @cimendes & @pprieto
-
-Thanks to everyone involved in the [nf-hack17-tutorial](https://github.com/nextflow-io/nf-hack17-tutorial) which was heavily used as inspiration for this tutorial
