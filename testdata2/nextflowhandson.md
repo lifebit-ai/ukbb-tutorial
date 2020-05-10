@@ -192,11 +192,30 @@ nextflow run script6.nf -resume --reads 'data/ggal/*_{1,2}.fq'
 ```
 It creates the final report in the ```results``` folder in the current work directory.
 
-In this script note the use of the [mix](https://www.nextflow.io/docs/latest/operator.html#mix) and [collect](https://www.nextflow.io/docs/latest/operator.html#collect) operators chained together to get all the outputs of the ```quantification``` and ```fastqc``` process as a single input.
-
 Execute the script with the following command:
 ```bash
 nextflow run script6.nf -resume --reads 'data/ggal/*_{1,2}.fq' 
 ```
+
+In this script note the use of the [mix](https://www.nextflow.io/docs/latest/operator.html#mix) and [collect](https://www.nextflow.io/docs/latest/operator.html#collect) operators chained together to get all the outputs of the ```quantification``` and ```fastqc``` process as a single input.
+
 ### Recap
+In this step you have learned:
+
+1. How to collect many outputs to a single input with the ```collect``` operator
+2. How to ```mix``` two channels in a single channel
+3. How to chain two or more operators togethers
+
+## Step 7 - Handle completion event
+
+This step shows how to execute an action when the pipeline completes the execution.
+
+Note that Nextflow processes define the execution of asynchronous tasks i.e. they are not executed one after another as they are written in the pipeline script as it would happen in a common imperative programming language.
+
+The script uses the ```workflow.onComplete``` event handler to print a confirmation message when the script completes.
+
+Try to run it by using the following command:
+```bash
+nextflow run script7.nf -resume --reads 'data/ggal/*_{1,2}.fq' 
+```
 
