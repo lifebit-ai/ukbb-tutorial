@@ -1,5 +1,5 @@
 # How to construct a pipeline on UKB CloudOS 
-Tutorial covering Nextflow, containers, FlowCraft and UKB CloudOS.
+UK Biobank tutorial covering Nextflow, containers, FlowCraft and UKB CloudOS.
 
 
 
