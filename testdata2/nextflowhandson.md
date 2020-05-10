@@ -9,4 +9,7 @@ During this tutorial you will implement a proof of concept of a RNA-Seq pipeline
 ## Step 1 - define the pipeline parameters
 
 The script ```script1.nf``` defines the pipeline input parameters. Run it by using the following command:
-```nextflow run script1.nf```
+```bash
+nextflow run script1.nf
+```
+
